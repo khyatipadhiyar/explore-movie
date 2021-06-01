@@ -27,12 +27,21 @@
 .App-link {
   color: #61dafb;
 }
-
+.container{
+  min-width: 375px;
+  margin: 30px auto;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    margin:50px auto
   }
 }
